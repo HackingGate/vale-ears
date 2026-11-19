@@ -28,6 +28,8 @@ When a user uploads a file, a folder, or a link, the system shall scan it.
 
 If the request has no token, an expired token, or a revoked token, then the server shall return 401.
 
+Every request carries a token. When the token expires, the server shall return 401.
+
 ## Non-Requirement Prose
 
 This is a standard paragraph that describes the system architecture. The database stores records correctly. The interface allows users to view their data. It can perform all listed operations. This document serves as a reference.

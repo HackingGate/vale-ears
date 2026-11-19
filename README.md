@@ -17,6 +17,8 @@ Checks that any sentence containing the word `shall` conforms to one of the stan
 - **Unwanted behavior:** if `<trigger>`, then the `<system>` shall `<action>`
 - **Optional feature:** where `<feature>`, the `<system>` shall `<action>`
 
+The rule checks each sentence on its own, so one valid sentence doesn't hide an invalid one beside it in the same paragraph. Headings aren't checked.
+
 ### `ears.Shall`
 
 Ensures that requirements use the word `shall` rather than `must`, `will`, `should`, or `may` (which formal requirements commonly discourage).
