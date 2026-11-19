@@ -20,6 +20,8 @@ Where a camera exists, the app shall record video.
 
 Where a microphone exists, the system shall capture audio.
 
+Every request carries a token. When the token expires, the server shall return 401.
+
 ## Non-Requirement Prose
 
 This is a standard paragraph that describes the system architecture. The database stores records correctly. The interface allows users to view their data. It can perform all listed operations. This document serves as a reference.

@@ -14,6 +14,10 @@ If the network drops the system shall retry.
 
 In the event of a failure, the system shall halt.
 
+The system shall log all errors. When the run ends, it shall list the errors.
+
+When the run ends, it shall list the errors. The system shall log all errors.
+
 ## ears.Shall Violations
 
 The system must log all errors.
